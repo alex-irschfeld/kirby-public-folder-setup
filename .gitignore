@@ -1,0 +1,78 @@
+# Node.js
+node_modules/
+npm-debug.log*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build directories
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+*.swp
+*.swo
+
+# Operating system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Images and generated files
+*.gif
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+*.ico
+
+# Other
+*.lock
+*.gz
+*.zip
+*.rar
+*.7z
+*.tar
+
+# Dependency directories
+bower_components/
+vendor/
+
+# Laravel specific
+/public/storage
+/storage/*.key
+.env.testing
+
+# Kirby CMS specific
+site/accounts/
+kirby/*
+content/*.lock
+
+# macOS files
+.DS_Store
+.Spotlight-V100
+.Trashes
